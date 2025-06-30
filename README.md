@@ -12,6 +12,17 @@ After extracting the API calls using the steps described in the `terminal-bench`
 
 Before running the commands below, ensure your `OPENAI_API_KEY` or `ANTHROPIC_API_KEY` is set.
 
+### **Install dependencies and data**
+
+```bash
+conda create -n venv python=3.11
+pip install appworld
+appworld install
+
+# download data
+appworld download data
+```
+
 ### **Run terminal-bench's predicted agent API calls**
 
 ```bash
